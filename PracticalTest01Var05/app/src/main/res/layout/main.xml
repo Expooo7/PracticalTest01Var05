@@ -10,8 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:fitsSystemWindows="true"
+        android:orientation="vertical"
         android:padding="16dp">
 
         <Button
@@ -35,16 +35,16 @@
                 android:id="@+id/top_left_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginEnd="8dp"
+                android:layout_weight="1"
                 android:text="TOP LEFT!" />
 
             <Button
                 android:id="@+id/top_right_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginStart="8dp"
+                android:layout_weight="1"
                 android:text="TOP RIGHT!" />
         </LinearLayout>
 
@@ -59,8 +59,8 @@
                 android:id="@+id/middle_button"
                 android:layout_width="210dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="100dp"
                 android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
                 android:layout_weight="1"
                 android:text="MIDDLE!" />
 
@@ -77,18 +77,29 @@
                 android:id="@+id/bot_left_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginEnd="8dp"
+                android:layout_weight="1"
                 android:text="BOTTOM LEFT!" />
 
             <Button
                 android:id="@+id/bot_right_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginStart="8dp"
+                android:layout_weight="1"
                 android:text="BOTTOM RIGHT!" />
         </LinearLayout>
+
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_width="383dp"
+            android:layout_height="256dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:text="waiting..." />
+
     </LinearLayout>
 
 
